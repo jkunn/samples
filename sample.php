@@ -20,7 +20,11 @@ function calculateDivision($num)
         elseif($num % 15 == 0)
         {
             return "foobar";
-        }    
+        }
+        else
+        {
+            return $num;
+        }
     }
     else
     {
